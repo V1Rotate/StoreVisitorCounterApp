@@ -1,0 +1,70 @@
+body {
+  background-image: url('store2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80% 20%;
+}
+
+.menu {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-top: -130px;
+  margin-left: -140px;
+  width: 410px;
+  height: 700px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#count-el {
+  color: red;
+  margin-left: 185px;
+  font-size: 60px;
+  text-shadow: 1px 2px 8px #ff0000;
+}
+
+#entered-btn {
+  color: white;
+  background-color: orange;
+  margin-left: 60px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 80px;
+  width: 130px;
+  border-width: 7px;
+  border-radius: 15px;
+  border-style: groove;
+  border-color: orange;
+}
+
+#save-btn {
+  color: white;
+  background-color: lightskyblue;
+  margin: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 80px;
+  width: 130px;
+  border-width: 7px;
+  border-radius: 15px;
+  border-style: groove;
+  border-color: lightskyblue;
+}
+
+#entered-btn:hover {
+  border-width: 6px;
+  border-color: red;
+  font-size: 20px;
+}
+
+#save-btn:hover {
+  border-width: 6px;
+  border-color: blue;
+  font-size: 20px;
+}
+
+#save-el {
+  color: crimson;
+}
